@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef } from "react";
 import {
   Button,
   Grid,
@@ -13,14 +13,14 @@ import Sweetness from "../../assets/images/sweetness.png";
 import Eggilious from "../../assets/images/eggillious.png";
 import Fruity from "../../assets/images/fruity.png";
 import Happiness from "../../assets/images/happiness.png";
-// import { CartDetails } from "../../assets/data/CartDetails";
+import { CartDetails } from "../../assets/data/CartDetails";
 import Cards from "../CustomComponent/Cards";
 import ChevronRightOutlinedIcon from "@mui/icons-material/ChevronRightOutlined";
 import ChevronLeftOutlinedIcon from "@mui/icons-material/ChevronLeftOutlined";
 import ShopNow from "../../assets/images/ShopNow.png";
 import CategoriesCard from "../CustomComponent/Categories/CategoriesCard";
-// import { Categories } from "../../assets/data/Categories.js";
-// import { Farm } from "../../assets/data/Farm";
+import { Categories } from "../../assets/data/Categories.js";
+import { Farm } from "../../assets/data/Farm";
 import FarmCard from "../CustomComponent/ExploreFarm/FarmCard";
 import {
   dealResponsive,
@@ -31,30 +31,30 @@ import {
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import fetch from "../controllers/fetch";
+// import fetch from "../controllers/fetch";
 
 function Home() {
-  const [state, setState] = useState();
-  const [categoriesData, setCategoriesData] = useState();
-  const [farmData, setFarmData] = useState();
+  // const [state, setState] = useState();
+  // const [categoriesData, setCategoriesData] = useState();
+  // const [farmData, setFarmData] = useState();
 
-  const apiCall = async () => {
-    let response;
-    response = await fetch(process.env.REACT_APP_Cart_Details);
-    setState(response);
-    console.log("State", response);
-    response = await fetch(process.env.REACT_APP_Categories);
-    setCategoriesData(response);
-    console.log(response);
+  // const apiCall = async () => {
+  //   let response;
+  //   response = await fetch(process.env.REACT_APP_Cart_Details);
+  //   setState(response);
+  //   console.log("State", response);
+  //   response = await fetch(process.env.REACT_APP_Categories);
+  //   setCategoriesData(response);
+  //   console.log(response);
 
-    response = await fetch(process.env.REACT_APP_Farm);
-    setFarmData(response);
-    console.log("farm", response);
-  };
+  //   response = await fetch(process.env.REACT_APP_Farm);
+  //   setFarmData(response);
+  //   console.log("farm", response);
+  // };
 
-  useEffect(() => {
-    apiCall();
-  }, []);
+  // useEffect(() => {
+  //   apiCall();
+  // }, []);
 
   let settings = {
     dots: false,
@@ -195,23 +195,22 @@ function Home() {
               }}
               {...settings}
             >
-              {state &&
-                state.map((item) => {
-                  return (
-                    <Grid xs={12} sm={6} md={4}>
-                      <Cards
-                        key={item.id}
-                        image={item.image}
-                        name={item.name}
-                        location={item.location}
-                        des={item.des}
-                        weight={item.weight}
-                        kd={item.kd}
-                        discount={item.discount}
-                      />
-                    </Grid>
-                  );
-                })}
+              {CartDetails.map((item) => {
+                return (
+                  <Grid xs={12} sm={6} md={4}>
+                    <Cards
+                      key={item.id}
+                      image={item.image}
+                      name={item.name}
+                      location={item.location}
+                      des={item.des}
+                      weight={item.weight}
+                      kd={item.kd}
+                      discount={item.discount}
+                    />
+                  </Grid>
+                );
+              })}
             </Slider>
           </Grid>
         </div>
@@ -249,16 +248,15 @@ function Home() {
             }}
             {...topCategoriesSettings}
           >
-            {categoriesData &&
-              categoriesData.map((food) => {
-                return (
-                  <CategoriesCard
-                    key={food.id}
-                    name={food.name}
-                    image={food.image}
-                  />
-                );
-              })}
+            {Categories.map((food) => {
+              return (
+                <CategoriesCard
+                  key={food.id}
+                  name={food.name}
+                  image={food.image}
+                />
+              );
+            })}
           </Slider>
         </Grid>
         <Grid container className="promosText">
@@ -281,10 +279,9 @@ function Home() {
             }}
             {...exploreFarmsSettings}
           >
-            {farmData &&
-              farmData.map((farm) => {
-                return <FarmCard image={farm.image} name={farm.name} />;
-              })}
+            {Farm.map((farm) => {
+              return <FarmCard image={farm.image} name={farm.name} />;
+            })}
           </Slider>
         </Grid>
       </Grid>
