@@ -1,0 +1,94 @@
+.freshText{
+    font-family: 'Grand Hotel' !important;
+    color: #2e353c !important;
+}
+.exploreBtn{
+    background-color:#CE1126 !important;
+    color: #fff !important;
+    font: normal normal normal 20px/41px Open Sans !important;
+    text-transform: none !important;
+    padding:5px 25px 5px 25px !important;
+    border-radius:10px !important;
+}
+.headerImg{
+    background: url('../../assets/images/fresh-fruit.jpg') no-repeat   center;
+    flex-direction: column;
+    width: 100%;
+    height: 550px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.exploreImg{
+    width: 100%;
+    height: 550px;
+}
+.promosText{
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.promosImg{
+    width: 100%;
+}
+.section{
+    margin-top: 20px;
+}
+.dealOfTheDayWrapper{
+    background-color: #F7F7F7;
+    margin-bottom: 20px;
+}
+.dealText{
+    color: #415162;
+    font: normal normal 800 30px/41px Open Sans !important;
+    padding:2%;
+    text-align: center;
+}
+.bottomSlider{
+    justify-content: center;
+    margin:20px 0 20px 0
+}
+.promosText{
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 50px;
+    margin-left:0 ;
+}
+.headingText{
+    font: normal normal 600 26px/36px Open Sans !important;
+}
+.heading{
+    font: normal normal normal 16px/22px Open Sans !important;
+    color: #CE1126;
+}
+.slidingBtn{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.shopnowImg{
+    height: 313px;
+    width: 100%;
+}
+.sliderWrapper{
+    width: 95%;
+    margin: auto;
+}
+.slick-slide > div {
+    margin: 0 15px;
+}
+.slidingBtn{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .headerImg {
+      height: 350px;
+    }
+    .shopnowImg{
+        height: 113px;
+    }
+  }

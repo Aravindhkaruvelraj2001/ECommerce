@@ -1,0 +1,23 @@
+.card{
+    position: relative;
+}
+.categoiesFood{
+    width:186px;
+    height:186px;
+}
+.foodName{
+    background-color: #80B435;
+    width: 164px;
+    position: absolute;
+    left:0;
+    z-index:1;
+    bottom: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    text-align: left;
+    font: normal normal normal 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}

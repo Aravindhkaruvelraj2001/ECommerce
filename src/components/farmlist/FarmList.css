@@ -1,0 +1,67 @@
+.farmListWrapper{
+    width:100%;
+    margin: auto;
+}
+.sideNavFarmWrapper{
+  justify-content: space-between;
+}
+
+
+.FarmHeroImg{
+    height:428px;
+    width: 100%;
+}
+.boxShadow{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000040;
+    opacity: 1;
+}
+.home{
+  text-align: left;
+  font: normal normal normal 15px/20px Open Sans;
+  letter-spacing: 0px;
+  color: #6B7885;
+}
+.farm{
+  text-align: left;
+  font: normal normal normal 15px/20px Open Sans;
+  letter-spacing: 0px;
+  color: #80B435;
+}
+.ExploreText{
+  text-align: left;
+  font: normal normal 600 26px/36px Open Sans;
+  letter-spacing: 0px;
+  color: #415162;
+  opacity: 1;
+}
+.closeBtnImg{
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+ 
+}
+.checkedfilter{
+  text-align: left;
+  font: normal normal 600 15px/20px Open Sans;
+  letter-spacing: 0px;
+  color: #415162;
+  opacity: 1;
+}
+.nameBtnWrapper{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #80B435;
+  border-radius: 4px;
+  opacity: 1;
+  padding: 3px;
+}
+.farmWrapper{
+  padding: 20px;
+  padding-left: 50px;
+}
+.farmContainer{
+  margin-bottom: 50px;
+}
+.headingWrapper{
+  margin-bottom: 30px;
+}

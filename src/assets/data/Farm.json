@@ -1,0 +1,33 @@
+{"Farm":[
+    {
+      "id": 1,
+      "name": "Gorge Farm",
+      "image": "GorgeFarm.png"
+    },
+    {
+      "id": 2,
+      "name": "Martha's Fresh Farm",
+      "image": "FreshFarm.png"
+    },
+    {
+      "id": 3,
+      "name": "Mathew Farm",
+      "image": "MathewFarm.png"
+    },
+    {
+      "id": 4,
+      "name": "Joseph Farm",
+      "image": "JosephFarm.png"
+    },
+    {
+      "id": 5,
+      "name": "Kay's Chick Farm",
+      "image": "ChickFarm.png"
+    },
+    {
+      "id": 6,
+      "name": "AI-Orgo Farm",
+      "image": "OrgoFarm.png"
+    }
+  ]}
+  

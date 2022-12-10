@@ -1,0 +1,18 @@
+.promosText{
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 50px;
+    margin-left:0 ;
+}
+.headingText{
+    font: normal normal 600 26px/36px Open Sans !important;
+}
+.heading{
+    font: normal normal normal 16px/22px Open Sans !important;
+    color: #CE1126;
+}
+.slidingBtn{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}

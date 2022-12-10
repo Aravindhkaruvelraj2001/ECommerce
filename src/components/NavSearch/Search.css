@@ -1,0 +1,52 @@
+.navSearch, .navSearchlocation{
+    left: -150px;
+    width: 250px;
+    position: absolute;
+    top: 1px;
+    z-index: 10;
+    
+}
+.navSearch input , .navSearchlocation input{
+    background:white
+}
+
+.navSearchInput , .navSearchList{
+    background: white;
+    border-radius: 10px;    
+    color: black;
+    padding: 10px;
+}
+.navSearchlocation{
+    left: 0;
+    top: 50px;
+}
+.white {
+    background-color: white;
+    text-align: left;
+    font: normal normal normal 16px/36px Open Sans;
+    letter-spacing: 0px;
+    color: #415162;
+    opacity: 1;
+    outline: none !important;
+    border: 0px !important;
+}
+
+.Recommand{
+    font: normal normal normal 16px/22px Open Sans !important;
+    letter-spacing: 0px;
+    color: #6B7885 !important;
+    opacity: 1;
+
+}
+.menuItem{
+    display: flex ;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.menuItemWrapper{
+    font: normal normal normal 16px/36px Open Sans;
+letter-spacing: 0px;
+color: #C0C5CB;
+opacity: 1;
+}

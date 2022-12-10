@@ -1,0 +1,33 @@
+.sideNavWrapper{
+    padding: 30px;
+}
+.labelCheckbox{
+ justify-content: space-between;
+ align-items: center;
+}
+.labelFilter{
+    justify-content: space-between;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+   opacity: 1;
+   margin-bottom: 20px;
+   align-items: center;
+}
+.FilterLabel{
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #415162;
+    opacity: 1;
+}
+.labelText{
+    text-align: left;
+    font: normal normal normal 16px/36px Open Sans;
+    letter-spacing: 0px;
+    color: #415162;
+    opacity: 1;
+}
+.checkBoxImg{
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+}

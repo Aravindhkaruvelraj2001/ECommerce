@@ -1,0 +1,12 @@
+.farmImage{
+    width:150px;
+    height: 150px;
+}
+.farmText{
+    text-align: center;
+    font: normal normal normal 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #415162;
+    opacity: 1;
+    width: 100%;
+}

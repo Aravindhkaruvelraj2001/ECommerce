@@ -1,0 +1,41 @@
+
+.freshLogo{
+    width:100%;
+}
+.shop{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.searchGrid{
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.iconGrid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.appbar{
+  
+    background-color: white !important;
+    box-shadow: none !important;
+}
+.text{
+    color: black;
+    font: normal normal normal 16px/14px Open Sans !important;
+}
+.downArrowSmall{
+    width: 10px;
+    height: 10px;
+}
+.searchIcon{
+    width: 20px;
+    height: 20px;
+}
+.arrowLarge{
+    width: 15px;
+    height: 15px;
+}

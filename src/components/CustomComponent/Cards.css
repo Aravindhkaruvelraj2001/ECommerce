@@ -1,0 +1,81 @@
+.cardName{
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #415162;
+    opacity: 1;
+}
+.cardLocation{
+    text-align: left;
+    font: normal normal normal 15px/20px Open Sans;
+    letter-spacing: 0px;
+    color: #6B7885;
+    opacity: 1;
+}
+.cardDes{
+    text-align: left;
+    font: normal normal 300 15px/18px Open Sans;
+    letter-spacing: 0px;
+    color: #6B7885;
+    opacity: 1;
+}
+.cardWeight{
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #6B7885;
+    opacity: 1;
+    margin-right:5px !important;
+}
+.cardKd{
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #415162;
+    opacity: 1;
+    margin-left:5px !important;
+
+}
+.cartBtn{
+    background: #80B435 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 8px 8px;
+    opacity: 1;
+    justify-content: center !important;
+}
+.btnText{
+    font: normal normal normal 16px/22px Open Sans !important;
+    letter-spacing: 0px;
+    color: #FFFFFF !important;
+    text-transform: none !important;
+    opacity: 1;
+}
+.cardOfferWrapper{
+    display: flex;
+    position: relative;
+    bottom: 30px;
+}
+.cardOfferImg{
+    position: relative;
+}
+.cardOfferImg img{
+    height: 30px;   
+}
+.cardOfferImg:first-child{
+    z-index: 10;
+}
+.cardOfferWrapper > div:nth-child(2){
+    width: 201px;
+    z-index: 0;
+    left: -21px;
+}
+.cardOfferImg span{
+    position: absolute;
+    left: 0;
+    color: white;
+    padding:0.2rem  0.8rem;
+    top:0;
+
+}
+.cardOfferWrapper > div:nth-child(2) > img{
+    left: 10px;
+}

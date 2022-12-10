@@ -1,0 +1,43 @@
+{ "Categories": [
+    {
+      "id": 1,
+      "name": "Dairy",
+      "image": "Dairy.png"
+    },
+    {
+      "id": 2,
+      "name": "Poultry",
+      "image": "Poultry.png"
+    },
+    {
+      "id": 3,
+      "name": "Sea Food",
+      "image": "SeaFood.png"
+    },
+    {
+      "id": 4,
+      "name": "Vegetables",
+      "image": "Vegetables.png"
+    },
+    {
+      "id": 5,
+      "name": "Fresh Fruits",
+      "image": "FreshFruits.png"
+    },
+    {
+      "id": 6,
+      "name": "Flowers",
+      "image": "Flowers.png"
+    },
+    {
+      "id": 7,
+      "name": "Herbs",
+      "image": "Herbs.png"
+    },
+    {
+      "id": 8,
+      "name": "Seasoning",
+      "image": "Seasoning.png"
+    }
+  ]
+}
